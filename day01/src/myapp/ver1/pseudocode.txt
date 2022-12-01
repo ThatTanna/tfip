@@ -1,0 +1,28 @@
+print "Welcome to your shopping cart"
+
+prompt user for:
+    list
+    add
+    delete
+
+change input to lowercase.
+
+list - content of the cart.
+    1. if cart is empty, print "Your cart is empty"
+    2. content should be listed from 1. apple, 2. pear, etc.
+
+add - one or more to the cart.
+    example
+        1. add apple. OR
+        2. add orange, pear
+    multiple items separated by a comma (,) see above example 2.
+
+    Don't allow duplicate item in the cart.
+        print "You have %s in your cart", apple.
+
+delete - remove item from cart based on item's index (from list command)
+    if incorrect index,
+        print "Incorrect item index"
+
+------
+
