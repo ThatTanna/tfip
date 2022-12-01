@@ -1,0 +1,9 @@
+git init
+git add .
+git commit -m "title"
+git push -u origin master
+
+git status
+git remote -v (Look at remote origin)
+git branch
+git log
